@@ -4,8 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="/base.css">
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -18,8 +17,10 @@
     </ul>
   </header>
 
-  <main class="container py-5">
-    <article>
+  <!-- Flex container with article and aside -->
+  <main>
+    <!-- Main content section -->
+    <article class="container py-5">
       <h1 class="mb-4 text-center text-primary">Why Learn with ALX-Africa</h1>
 
       <section class="mb-5">
@@ -54,7 +55,6 @@
         </a>
       </section>
 
-      <!-- Learners Table -->
       <section>
         <h2 class="mb-3">Learners Information</h2>
         <div class="table-responsive">
@@ -67,34 +67,19 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>John</td>
-                <td>25</td>
-                <td>USA</td>
-              </tr>
-              <tr>
-                <td>Emily</td>
-                <td>28</td>
-                <td>Canada</td>
-              </tr>
-              <tr>
-                <td>Michael</td>
-                <td>32</td>
-                <td>Australia</td>
-              </tr>
-              <tr>
-                <td>Sophia</td>
-                <td>21</td>
-                <td>UK</td>
-              </tr>
+              <tr><td>John</td><td>25</td><td>USA</td></tr>
+              <tr><td>Emily</td><td>28</td><td>Canada</td></tr>
+              <tr><td>Michael</td><td>32</td><td>Australia</td></tr>
+              <tr><td>Sophia</td><td>21</td><td>UK</td></tr>
             </tbody>
           </table>
         </div>
       </section>
     </article>
 
-    <aside>
-      <p>placeholder to add comment thread later</p>
+    <!-- Sidebar -->
+    <aside class="p-3 bg-white border-start">
+      <p>Placeholder to add comment thread later</p>
     </aside>
   </main>
 
