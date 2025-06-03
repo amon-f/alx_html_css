@@ -1,0 +1,34 @@
+/* Flex container for body and main */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Layout proportions */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-left: 1px solid #ccc;
+}
+
+/* Optional: Sticky footer */
+footer {
+  border-top: 1px solid #ccc;
+}
