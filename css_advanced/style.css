@@ -125,3 +125,49 @@ p {
   line-height: 1.5;
   color: #ffffffcc;
 }
+
+.blockquote {
+  background-color: #c271ff;
+  margin-top: 100px;
+  margin-bottom: 170px;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#blockquote {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  max-width: 1000px;
+  width: 100%;
+  color: white;
+}
+
+#blockquote img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#blockquote blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#blockquote h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#blockquote p {
+  font-size: 14px;
+  text-align: left;
+  color: #f8e9ff;
+}
